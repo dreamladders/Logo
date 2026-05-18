@@ -2,95 +2,143 @@
 <html lang="en">
 <head>
 
-  <!-- Meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ========================================= -->
+  <!-- META -->
+  <!-- ========================================= -->
 
-  <!-- SEO -->
+  <meta charset="UTF-8" />
   <meta
-    name="description"
-    content="Premium modern responsive website inspired by Dream Ladders branding."
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
   />
 
-  <title>Dream Ladders | Engineering the Future</title>
+  <meta
+    name="description"
+    content="Dream Ladders - Premium Digital Engineering & Intelligent Solutions"
+  />
 
-  <!-- Google Fonts -->
+  <title>
+    Dream Ladders | Digital Engineering
+  </title>
+
+  <!-- ========================================= -->
+  <!-- GOOGLE FONTS -->
+  <!-- ========================================= -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
   >
 
-  <!-- Font Awesome -->
+  <!-- ========================================= -->
+  <!-- FONT AWESOME -->
+  <!-- ========================================= -->
+
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   />
 
+  <!-- ========================================= -->
   <!-- CSS -->
+  <!-- ========================================= -->
+
   <link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
+  <!-- LOADER -->
+  <!-- ========================================= -->
+
+  <div class="loader-wrapper" id="loader">
+
+    <div class="loader-logo">
+
+      <!-- SVG LOGO -->
+      <svg
+        viewBox="0 0 800 600"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+
+        <polygon
+          points="230.35,133.128 285.541,187.116 262.888,187.078 310.05,233.562 310.429,396.224 378.424,396.193 378.44,471.944 230.329,471.972"
+          fill="#6D1F1F"
+        />
+
+        <polygon
+          points="269.998,190.417 349.141,265.5 418.464,265.547 539.061,358.817 418.888,452.675 418.803,528.578 574.94,406.814 574.984,311.874 416.252,190.356"
+          fill="#1E4D8F"
+        />
+
+        <polygon
+          points="242.282,134.03 298.086,187.135 418.187,187.145 547.029,286.032 547.095,255.447 388.476,133.935"
+          fill="#1C1C1C"
+        />
+
+        <polygon
+          points="486.859,322.148 534.663,358.821 391.093,469.642 391.002,396.255"
+          fill="#1C1C1C"
+        />
+
+      </svg>
+
+    </div>
+
+  </div>
+
+  <!-- ========================================= -->
   <!-- BACK TO TOP -->
-  <!-- ===================== -->
+  <!-- ========================================= -->
+
   <button id="backToTop">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- HEADER -->
-  <!-- ===================== -->
-  <header class="header">
+  <!-- ========================================= -->
+
+  <header class="header" id="header">
 
     <div class="container nav-container">
 
       <!-- LOGO -->
       <a href="#" class="logo">
 
-        <!-- INLINE SVG -->
         <svg
           class="brand-logo"
-          viewBox="0 0 500 500"
+          viewBox="0 0 800 600"
           xmlns="http://www.w3.org/2000/svg"
         >
 
-          <!-- Outer Circle -->
-          <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
-          <path
-            d="M70 430 C20 300 40 160 170 60"
-            stroke="#163F73"
-            stroke-width="28"
-            fill="none"
-            stroke-linecap="round"
-          />
-
-          <!-- Maroon Shape -->
-          <path
-            d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+          <polygon
+            points="230.35,133.128 285.541,187.116 262.888,187.078 310.05,233.562 310.429,396.224 378.424,396.193 378.44,471.944 230.329,471.972"
             fill="#6D1F1F"
           />
 
-          <!-- Black Top -->
-          <path
-            d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
-            fill="#1C1C1C"
-          />
-
-          <!-- Blue Shape -->
-          <path
-            d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+          <polygon
+            points="269.998,190.417 349.141,265.5 418.464,265.547 539.061,358.817 418.888,452.675 418.803,528.578 574.94,406.814 574.984,311.874 416.252,190.356"
             fill="#1E4D8F"
           />
 
-          <!-- Black Center -->
-          <path
-            d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+          <polygon
+            points="242.282,134.03 298.086,187.135 418.187,187.145 547.029,286.032 547.095,255.447 388.476,133.935"
+            fill="#1C1C1C"
+          />
+
+          <polygon
+            points="486.859,322.148 534.663,358.821 391.093,469.642 391.002,396.255"
             fill="#1C1C1C"
           />
 
@@ -103,28 +151,55 @@
 
       </a>
 
-      <!-- NAV -->
+      <!-- NAVBAR -->
       <nav class="navbar" id="navbar">
 
-        <a href="#hero" class="nav-link active">Home</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#portfolio" class="nav-link">Portfolio</a>
-        <a href="#testimonials" class="nav-link">Testimonials</a>
-        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#hero" class="nav-link active">
+          Home
+        </a>
+
+        <a href="#services" class="nav-link">
+          Services
+        </a>
+
+        <a href="#about" class="nav-link">
+          About
+        </a>
+
+        <a href="#portfolio" class="nav-link">
+          Portfolio
+        </a>
+
+        <a href="#testimonials" class="nav-link">
+          Testimonials
+        </a>
+
+        <a href="#faq" class="nav-link">
+          FAQ
+        </a>
+
+        <a href="#contact" class="nav-link">
+          Contact
+        </a>
 
       </nav>
 
       <!-- NAV ACTIONS -->
       <div class="nav-actions">
 
-        <!-- THEME -->
-        <button class="theme-toggle" id="themeToggle">
+        <!-- DARK MODE -->
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+        >
           <i class="fa-solid fa-moon"></i>
         </button>
 
         <!-- MOBILE -->
-        <button class="hamburger" id="hamburger">
+        <button
+          class="hamburger"
+          id="hamburger"
+        >
 
           <span></span>
           <span></span>
@@ -138,12 +213,13 @@
 
   </header>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- HERO -->
-  <!-- ===================== -->
+  <!-- ========================================= -->
+
   <section class="hero" id="hero">
 
-    <div class="hero-gradient"></div>
+    <div class="hero-bg"></div>
 
     <div class="container hero-grid">
 
@@ -151,48 +227,74 @@
       <div class="hero-content reveal">
 
         <span class="hero-tag">
-          BUILD • AUTOMATE • SCALE
+          BUILD • ENGINEER • SCALE
         </span>
 
         <h1>
-          Premium Digital
-          <span>Engineering Solutions</span>
+          Intelligent
+          <span>Digital Engineering</span>
+          For Modern Businesses
         </h1>
 
         <p>
-          We design high-end modern digital experiences,
-          intelligent automation systems, and scalable
-          engineering platforms inspired by innovation.
+          We craft premium digital experiences,
+          scalable engineering systems, automation
+          platforms, and modern business solutions
+          inspired by precision and innovation.
         </p>
 
         <div class="hero-buttons">
 
           <a href="#contact" class="btn btn-primary">
-            Get Started
+            Start Project
           </a>
 
           <a href="#portfolio" class="btn btn-outline">
-            View Projects
+            Explore Work
           </a>
 
         </div>
 
         <!-- STATS -->
-        <div class="stats">
+        <div class="hero-stats">
 
           <div class="stat-card">
-            <h2 class="counter" data-target="120">0</h2>
+
+            <h2
+              class="counter"
+              data-target="120"
+            >
+              0
+            </h2>
+
             <p>Projects</p>
+
           </div>
 
           <div class="stat-card">
-            <h2 class="counter" data-target="95">0</h2>
+
+            <h2
+              class="counter"
+              data-target="95"
+            >
+              0
+            </h2>
+
             <p>Clients</p>
+
           </div>
 
           <div class="stat-card">
-            <h2 class="counter" data-target="12">0</h2>
+
+            <h2
+              class="counter"
+              data-target="12"
+            >
+              0
+            </h2>
+
             <p>Countries</p>
+
           </div>
 
         </div>
@@ -206,37 +308,27 @@
 
           <svg
             class="hero-logo"
-            viewBox="0 0 500 500"
+            viewBox="0 0 800 600"
             xmlns="http://www.w3.org/2000/svg"
           >
 
-            <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
-
-            <path
-              d="M70 430 C20 300 40 160 170 60"
-              stroke="#163F73"
-              stroke-width="28"
-              fill="none"
-              stroke-linecap="round"
-            />
-
-            <path
-              d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+            <polygon
+              points="230.35,133.128 285.541,187.116 262.888,187.078 310.05,233.562 310.429,396.224 378.424,396.193 378.44,471.944 230.329,471.972"
               fill="#6D1F1F"
             />
 
-            <path
-              d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
-              fill="#1C1C1C"
-            />
-
-            <path
-              d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+            <polygon
+              points="269.998,190.417 349.141,265.5 418.464,265.547 539.061,358.817 418.888,452.675 418.803,528.578 574.94,406.814 574.984,311.874 416.252,190.356"
               fill="#1E4D8F"
             />
 
-            <path
-              d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+            <polygon
+              points="242.282,134.03 298.086,187.135 418.187,187.145 547.029,286.032 547.095,255.447 388.476,133.935"
+              fill="#1C1C1C"
+            />
+
+            <polygon
+              points="486.859,322.148 534.663,358.821 391.093,469.642 391.002,396.255"
               fill="#1C1C1C"
             />
 
@@ -250,10 +342,14 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- SERVICES -->
-  <!-- ===================== -->
-  <section class="services section" id="services">
+  <!-- ========================================= -->
+
+  <section
+    class="services section"
+    id="services"
+  >
 
     <div class="container">
 
@@ -264,12 +360,12 @@
         </span>
 
         <h2>
-          Smart Solutions For Modern Brands
+          Smart Solutions Built For Scale
         </h2>
 
       </div>
 
-      <div class="service-grid">
+      <div class="services-grid">
 
         <div class="service-card reveal">
 
@@ -277,10 +373,10 @@
             <i class="fa-solid fa-code"></i>
           </div>
 
-          <h3>Web Engineering</h3>
+          <h3>Web Development</h3>
 
           <p>
-            Premium responsive websites and scalable platforms.
+            Modern scalable websites and SaaS platforms.
           </p>
 
         </div>
@@ -294,7 +390,7 @@
           <h3>AI Automation</h3>
 
           <p>
-            Intelligent systems that optimize workflows and operations.
+            Intelligent workflow automation and AI systems.
           </p>
 
         </div>
@@ -308,7 +404,7 @@
           <h3>Analytics</h3>
 
           <p>
-            Actionable business insights powered by data.
+            Business intelligence powered by smart data.
           </p>
 
         </div>
@@ -319,10 +415,14 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- ABOUT -->
-  <!-- ===================== -->
-  <section class="about section" id="about">
+  <!-- ========================================= -->
+
+  <section
+    class="about section"
+    id="about"
+  >
 
     <div class="container about-grid">
 
@@ -332,37 +432,27 @@
 
           <svg
             class="about-logo"
-            viewBox="0 0 500 500"
+            viewBox="0 0 800 600"
             xmlns="http://www.w3.org/2000/svg"
           >
 
-            <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
-
-            <path
-              d="M70 430 C20 300 40 160 170 60"
-              stroke="#163F73"
-              stroke-width="28"
-              fill="none"
-              stroke-linecap="round"
-            />
-
-            <path
-              d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+            <polygon
+              points="230.35,133.128 285.541,187.116 262.888,187.078 310.05,233.562 310.429,396.224 378.424,396.193 378.44,471.944 230.329,471.972"
               fill="#6D1F1F"
             />
 
-            <path
-              d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
-              fill="#1C1C1C"
-            />
-
-            <path
-              d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+            <polygon
+              points="269.998,190.417 349.141,265.5 418.464,265.547 539.061,358.817 418.888,452.675 418.803,528.578 574.94,406.814 574.984,311.874 416.252,190.356"
               fill="#1E4D8F"
             />
 
-            <path
-              d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+            <polygon
+              points="242.282,134.03 298.086,187.135 418.187,187.145 547.029,286.032 547.095,255.447 388.476,133.935"
+              fill="#1C1C1C"
+            />
+
+            <polygon
+              points="486.859,322.148 534.663,358.821 391.093,469.642 391.002,396.255"
               fill="#1C1C1C"
             />
 
@@ -379,30 +469,31 @@
         </span>
 
         <h2>
-          Inspired By Precision
-          <span>Driven By Innovation</span>
+          Precision Meets
+          <span>Innovation</span>
         </h2>
 
         <p>
-          Our visual identity reflects structure,
-          engineering logic, and modern technology aesthetics.
+          Inspired by structural engineering,
+          intelligent systems, and premium
+          digital experiences.
         </p>
 
         <div class="about-list">
 
           <div class="about-item">
             <i class="fa-solid fa-check"></i>
-            <span>Modern scalable systems</span>
+            <span>Modern scalable architecture</span>
           </div>
 
           <div class="about-item">
             <i class="fa-solid fa-check"></i>
-            <span>Premium user experience</span>
+            <span>Premium user interfaces</span>
           </div>
 
           <div class="about-item">
             <i class="fa-solid fa-check"></i>
-            <span>Fast & optimized performance</span>
+            <span>Fast optimized experiences</span>
           </div>
 
         </div>
@@ -413,10 +504,14 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- PORTFOLIO -->
-  <!-- ===================== -->
-  <section class="portfolio section" id="portfolio">
+  <!-- ========================================= -->
+
+  <section
+    class="portfolio section"
+    id="portfolio"
+  >
 
     <div class="container">
 
@@ -435,19 +530,19 @@
       <div class="portfolio-grid">
 
         <div class="portfolio-card reveal">
-          <div class="overlay">
+          <div class="portfolio-overlay">
             <h3>AI Dashboard</h3>
           </div>
         </div>
 
         <div class="portfolio-card reveal">
-          <div class="overlay">
+          <div class="portfolio-overlay">
             <h3>Automation Platform</h3>
           </div>
         </div>
 
         <div class="portfolio-card reveal">
-          <div class="overlay">
+          <div class="portfolio-overlay">
             <h3>Engineering Portal</h3>
           </div>
         </div>
@@ -458,10 +553,14 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
   <!-- TESTIMONIALS -->
-  <!-- ===================== -->
-  <section class="testimonials section" id="testimonials">
+  <!-- ========================================= -->
+
+  <section
+    class="testimonials section"
+    id="testimonials"
+  >
 
     <div class="container">
 
@@ -482,8 +581,7 @@
         <div class="testimonial-card reveal">
 
           <p>
-            “Excellent UI quality and modern design standards.
-            Truly premium experience.”
+            “Excellent quality and modern engineering aesthetics.”
           </p>
 
           <h4>Rahul Sharma</h4>
@@ -493,7 +591,7 @@
         <div class="testimonial-card reveal">
 
           <p>
-            “Professional engineering and outstanding visual execution.”
+            “Premium UI/UX and exceptional attention to detail.”
           </p>
 
           <h4>Sneha Patel</h4>
@@ -506,10 +604,73 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
+  <!-- FAQ -->
+  <!-- ========================================= -->
+
+  <section class="faq section" id="faq">
+
+    <div class="container">
+
+      <div class="section-header reveal">
+
+        <span class="section-tag">
+          FAQ
+        </span>
+
+        <h2>
+          Frequently Asked Questions
+        </h2>
+
+      </div>
+
+      <div class="faq-container">
+
+        <div class="faq-item reveal">
+
+          <button class="faq-question">
+            What services do you provide?
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              We provide web development,
+              AI automation, analytics,
+              and digital engineering services.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="faq-item reveal">
+
+          <button class="faq-question">
+            Is the website fully responsive?
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, optimized for mobile,
+              tablet, and desktop devices.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ========================================= -->
   <!-- CONTACT -->
-  <!-- ===================== -->
-  <section class="contact section" id="contact">
+  <!-- ========================================= -->
+
+  <section
+    class="contact section"
+    id="contact"
+  >
 
     <div class="container contact-grid">
 
@@ -527,9 +688,17 @@
 
       <form class="contact-form reveal">
 
-        <input type="text" placeholder="Your Name" required>
+        <input
+          type="text"
+          placeholder="Your Name"
+          required
+        >
 
-        <input type="email" placeholder="Your Email" required>
+        <input
+          type="email"
+          placeholder="Your Email"
+          required
+        >
 
         <textarea
           rows="5"
@@ -546,9 +715,47 @@
 
   </section>
 
-  <!-- ===================== -->
+  <!-- ========================================= -->
+  <!-- NEWSLETTER -->
+  <!-- ========================================= -->
+
+  <section class="newsletter">
+
+    <div class="container newsletter-box reveal">
+
+      <div>
+
+        <h2>
+          Stay Updated
+        </h2>
+
+        <p>
+          Subscribe for modern digital insights.
+        </p>
+
+      </div>
+
+      <form class="newsletter-form">
+
+        <input
+          type="email"
+          placeholder="Enter your email"
+        >
+
+        <button class="btn btn-primary">
+          Subscribe
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- ========================================= -->
   <!-- FOOTER -->
-  <!-- ===================== -->
+  <!-- ========================================= -->
+
   <footer class="footer">
 
     <div class="container footer-grid">
@@ -603,7 +810,10 @@
 
   </footer>
 
+  <!-- ========================================= -->
   <!-- JS -->
+  <!-- ========================================= -->
+
   <script src="script.js"></script>
 
 </body>

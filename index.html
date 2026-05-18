@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <meta
+    name="description"
+    content="Premium modern responsive website inspired by Dream Ladders branding."
+  />
+
+  <title>Dream Ladders | Engineering the Future</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- ===================== -->
+  <!-- BACK TO TOP -->
+  <!-- ===================== -->
+  <button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ===================== -->
+  <!-- HEADER -->
+  <!-- ===================== -->
+  <header class="header">
+
+    <div class="container nav-container">
+
+      <!-- LOGO -->
+      <a href="#" class="logo">
+
+        <!-- INLINE SVG -->
+        <svg
+          class="brand-logo"
+          viewBox="0 0 500 500"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+
+          <!-- Outer Circle -->
+          <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
+          <path
+            d="M70 430 C20 300 40 160 170 60"
+            stroke="#163F73"
+            stroke-width="28"
+            fill="none"
+            stroke-linecap="round"
+          />
+
+          <!-- Maroon Shape -->
+          <path
+            d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+            fill="#6D1F1F"
+          />
+
+          <!-- Black Top -->
+          <path
+            d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
+            fill="#1C1C1C"
+          />
+
+          <!-- Blue Shape -->
+          <path
+            d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+            fill="#1E4D8F"
+          />
+
+          <!-- Black Center -->
+          <path
+            d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+            fill="#1C1C1C"
+          />
+
+        </svg>
+
+        <div class="logo-text">
+          <h2>Dream Ladders</h2>
+          <span>Digital Engineering</span>
+        </div>
+
+      </a>
+
+      <!-- NAV -->
+      <nav class="navbar" id="navbar">
+
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+
+      </nav>
+
+      <!-- NAV ACTIONS -->
+      <div class="nav-actions">
+
+        <!-- THEME -->
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <!-- MOBILE -->
+        <button class="hamburger" id="hamburger">
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- ===================== -->
+  <!-- HERO -->
+  <!-- ===================== -->
+  <section class="hero" id="hero">
+
+    <div class="hero-gradient"></div>
+
+    <div class="container hero-grid">
+
+      <!-- LEFT -->
+      <div class="hero-content reveal">
+
+        <span class="hero-tag">
+          BUILD • AUTOMATE • SCALE
+        </span>
+
+        <h1>
+          Premium Digital
+          <span>Engineering Solutions</span>
+        </h1>
+
+        <p>
+          We design high-end modern digital experiences,
+          intelligent automation systems, and scalable
+          engineering platforms inspired by innovation.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#contact" class="btn btn-primary">
+            Get Started
+          </a>
+
+          <a href="#portfolio" class="btn btn-outline">
+            View Projects
+          </a>
+
+        </div>
+
+        <!-- STATS -->
+        <div class="stats">
+
+          <div class="stat-card">
+            <h2 class="counter" data-target="120">0</h2>
+            <p>Projects</p>
+          </div>
+
+          <div class="stat-card">
+            <h2 class="counter" data-target="95">0</h2>
+            <p>Clients</p>
+          </div>
+
+          <div class="stat-card">
+            <h2 class="counter" data-target="12">0</h2>
+            <p>Countries</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-image reveal">
+
+        <div class="glass-card">
+
+          <svg
+            class="hero-logo"
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+
+            <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
+
+            <path
+              d="M70 430 C20 300 40 160 170 60"
+              stroke="#163F73"
+              stroke-width="28"
+              fill="none"
+              stroke-linecap="round"
+            />
+
+            <path
+              d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+              fill="#6D1F1F"
+            />
+
+            <path
+              d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
+              fill="#1C1C1C"
+            />
+
+            <path
+              d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+              fill="#1E4D8F"
+            />
+
+            <path
+              d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+              fill="#1C1C1C"
+            />
+
+          </svg>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- SERVICES -->
+  <!-- ===================== -->
+  <section class="services section" id="services">
+
+    <div class="container">
+
+      <div class="section-header reveal">
+
+        <span class="section-tag">
+          SERVICES
+        </span>
+
+        <h2>
+          Smart Solutions For Modern Brands
+        </h2>
+
+      </div>
+
+      <div class="service-grid">
+
+        <div class="service-card reveal">
+
+          <div class="icon-box">
+            <i class="fa-solid fa-code"></i>
+          </div>
+
+          <h3>Web Engineering</h3>
+
+          <p>
+            Premium responsive websites and scalable platforms.
+          </p>
+
+        </div>
+
+        <div class="service-card reveal">
+
+          <div class="icon-box">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+
+          <h3>AI Automation</h3>
+
+          <p>
+            Intelligent systems that optimize workflows and operations.
+          </p>
+
+        </div>
+
+        <div class="service-card reveal">
+
+          <div class="icon-box">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+
+          <h3>Analytics</h3>
+
+          <p>
+            Actionable business insights powered by data.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- ABOUT -->
+  <!-- ===================== -->
+  <section class="about section" id="about">
+
+    <div class="container about-grid">
+
+      <div class="about-image reveal">
+
+        <div class="about-card">
+
+          <svg
+            class="about-logo"
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+
+            <circle cx="250" cy="250" r="240" fill="#F4F4F4"/>
+
+            <path
+              d="M70 430 C20 300 40 160 170 60"
+              stroke="#163F73"
+              stroke-width="28"
+              fill="none"
+              stroke-linecap="round"
+            />
+
+            <path
+              d="M150 120 L150 380 L270 380 L270 320 L220 320 L220 180 L150 120 Z"
+              fill="#6D1F1F"
+            />
+
+            <path
+              d="M150 120 L320 120 L410 210 L410 260 L320 170 L150 120 Z"
+              fill="#1C1C1C"
+            />
+
+            <path
+              d="M200 180 L320 180 L440 280 L440 410 L390 450 L390 310 L290 230 L200 180 Z"
+              fill="#1E4D8F"
+            />
+
+            <path
+              d="M280 320 L360 250 L410 300 L320 390 L280 390 Z"
+              fill="#1C1C1C"
+            />
+
+          </svg>
+
+        </div>
+
+      </div>
+
+      <div class="about-content reveal">
+
+        <span class="section-tag">
+          ABOUT
+        </span>
+
+        <h2>
+          Inspired By Precision
+          <span>Driven By Innovation</span>
+        </h2>
+
+        <p>
+          Our visual identity reflects structure,
+          engineering logic, and modern technology aesthetics.
+        </p>
+
+        <div class="about-list">
+
+          <div class="about-item">
+            <i class="fa-solid fa-check"></i>
+            <span>Modern scalable systems</span>
+          </div>
+
+          <div class="about-item">
+            <i class="fa-solid fa-check"></i>
+            <span>Premium user experience</span>
+          </div>
+
+          <div class="about-item">
+            <i class="fa-solid fa-check"></i>
+            <span>Fast & optimized performance</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- PORTFOLIO -->
+  <!-- ===================== -->
+  <section class="portfolio section" id="portfolio">
+
+    <div class="container">
+
+      <div class="section-header reveal">
+
+        <span class="section-tag">
+          PORTFOLIO
+        </span>
+
+        <h2>
+          Featured Projects
+        </h2>
+
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card reveal">
+          <div class="overlay">
+            <h3>AI Dashboard</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="overlay">
+            <h3>Automation Platform</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="overlay">
+            <h3>Engineering Portal</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- TESTIMONIALS -->
+  <!-- ===================== -->
+  <section class="testimonials section" id="testimonials">
+
+    <div class="container">
+
+      <div class="section-header reveal">
+
+        <span class="section-tag">
+          TESTIMONIALS
+        </span>
+
+        <h2>
+          What Clients Say
+        </h2>
+
+      </div>
+
+      <div class="testimonial-grid">
+
+        <div class="testimonial-card reveal">
+
+          <p>
+            “Excellent UI quality and modern design standards.
+            Truly premium experience.”
+          </p>
+
+          <h4>Rahul Sharma</h4>
+
+        </div>
+
+        <div class="testimonial-card reveal">
+
+          <p>
+            “Professional engineering and outstanding visual execution.”
+          </p>
+
+          <h4>Sneha Patel</h4>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- CONTACT -->
+  <!-- ===================== -->
+  <section class="contact section" id="contact">
+
+    <div class="container contact-grid">
+
+      <div class="contact-content reveal">
+
+        <span class="section-tag">
+          CONTACT
+        </span>
+
+        <h2>
+          Let's Build Something Great
+        </h2>
+
+      </div>
+
+      <form class="contact-form reveal">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+
+        <button class="btn btn-primary">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- ===================== -->
+  <!-- FOOTER -->
+  <!-- ===================== -->
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <h3>Dream Ladders</h3>
+
+        <p>
+          Premium digital engineering experiences.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h4>Links</h4>
+
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+
+      </div>
+
+      <div>
+
+        <h4>Social</h4>
+
+        <div class="social-icons">
+
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Dream Ladders. All Rights Reserved.
+    </div>
+
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,6 +1,19 @@
-// ==============================
+// =========================================
+// LOADER
+// =========================================
+
+window.addEventListener("load", () => {
+
+  const loader =
+    document.getElementById("loader");
+
+  loader.classList.add("hide");
+
+});
+
+// =========================================
 // MOBILE MENU
-// ==============================
+// =========================================
 
 const hamburger =
   document.getElementById("hamburger");
@@ -14,9 +27,9 @@ hamburger.addEventListener("click", () => {
 
 });
 
-// ==============================
-// ACTIVE NAV LINK
-// ==============================
+// =========================================
+// ACTIVE NAV LINKS
+// =========================================
 
 const sections =
   document.querySelectorAll("section");
@@ -58,9 +71,9 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ==============================
+// =========================================
 // SCROLL REVEAL
-// ==============================
+// =========================================
 
 const reveals =
   document.querySelectorAll(".reveal");
@@ -92,9 +105,9 @@ window.addEventListener(
 
 revealSections();
 
-// ==============================
-// COUNTER
-// ==============================
+// =========================================
+// COUNTER ANIMATION
+// =========================================
 
 const counters =
   document.querySelectorAll(".counter");
@@ -133,9 +146,38 @@ counters.forEach(counter => {
 
 });
 
-// ==============================
+// =========================================
+// FAQ
+// =========================================
+
+const faqQuestions =
+  document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(question => {
+
+  question.addEventListener("click", () => {
+
+    const answer =
+      question.nextElementSibling;
+
+    if(answer.style.maxHeight){
+
+      answer.style.maxHeight = null;
+
+    } else {
+
+      answer.style.maxHeight =
+        answer.scrollHeight + "px";
+
+    }
+
+  });
+
+});
+
+// =========================================
 // DARK MODE
-// ==============================
+// =========================================
 
 const themeToggle =
   document.getElementById("themeToggle");
@@ -146,9 +188,9 @@ themeToggle.addEventListener("click", () => {
 
 });
 
-// ==============================
+// =========================================
 // BACK TO TOP
-// ==============================
+// =========================================
 
 const backToTop =
   document.getElementById("backToTop");
